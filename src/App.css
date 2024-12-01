@@ -19,6 +19,10 @@ body{
   z-index: 1000;
 }
 
+.links{
+  text-decoration: none;
+}
+
 .navbar .logo {
   font-size: 1.8rem;
   font-weight: bold;
@@ -48,7 +52,7 @@ body{
 }
 
 .navbar nav ul li {
-  margin: 0 15px; /* Added more spacing for clarity */
+  margin: 0 15px; 
   display: flex;
   align-items: center;
 }
@@ -59,13 +63,13 @@ body{
   padding: 8px 15px;
   font-size: 1rem;
   border-radius: 5px;
-  transition: background 0.3s ease, transform 0.3s ease; /* Added smooth hover effect */
+  transition: background 0.3s ease, transform 0.3s ease; 
 }
 
 .navbar nav ul li a:hover {
   background:#118ab2;
   color: white;
-  transform: translateY(-3px); /* Slight lift effect on hover */
+  transform: translateY(-3px); 
 }
 
 /* Buttons on the Navbar */
@@ -79,14 +83,14 @@ body{
 
 .button2 {
   display: inline-block;
-  transition: all 0.3s ease-in-out; /* Slightly faster transitions for better feedback */
+  transition: all 0.3s ease-in-out; 
   position: relative;
   overflow: hidden;
   z-index: 1;
   color: black;
-  padding: 10px 20px; /* Increased padding for a more balanced look */
-  font-size: 16px; /* Slightly reduced font size for consistency */
-  border-radius: 8px; /* Smooth rounded edges */
+  padding: 10px 20px;
+  font-size: 16px; 
+  border-radius: 8px;
   background: #FFD166;
   border: 1px solid #e8e8e8;
  cursor: pointer;
@@ -96,8 +100,8 @@ body{
   color: #ffffff;
   background: #009087;
   border: 1px solid #009087;
-  box-shadow: 0 6px 12px rgba(0, 144, 135, 0.4); /* Subtle shadow on hover */
-  transform: scale(1.05); /* Slight zoom effect */
+  box-shadow: 0 6px 12px rgba(0, 144, 135, 0.4); 
+  transform: scale(1.05); 
 }
 
 .button2:active {
@@ -168,7 +172,7 @@ body{
 
 .highlight {
   font-weight: bold;
-  color: #ffd700; /* Golden color for highlight */
+  color: #ffd700; 
 }
 
 .banner-buttons {
@@ -345,13 +349,13 @@ body{
 .Featured-Jobs {
   font-size: 28px;
   font-weight: bold;
-  color: black; /* Orange color to match the theme */
+  color: black; 
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-family: 'Arial', sans-serif; /* Adjust to your preferred font */
+  font-family: 'Arial', sans-serif; 
 }
 
 .job-slider-container {
@@ -435,23 +439,23 @@ body{
 /* Location styling */
 .location {
   font-size: 14px;
-  color: #ff7f00; /* Orange location */
+  color: #ff7f00; 
   display: flex;
   align-items: center;
   gap: 5px;
 }
 
-/* Apply button style */
+
 .apply-btn {
-  background-color: #548c2f; /* Green color */
+  background-color: #548c2f; 
   color: white;
   padding: 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   width: 100%;
-  margin-top: auto; /* Push the button to the bottom */
-  font-size: 14px; /* Adjust font size for consistency */
+  margin-top: auto; 
+  font-size: 14px;
 }
 
 .apply-btn a {
@@ -482,7 +486,6 @@ body{
 }
 
 
-/* General footer styles */
 /* Footer Container */
 .footer {
   background-color: #b3dee2;
@@ -604,11 +607,4 @@ body{
   font-size: 12px;
   color: #777;
   margin-top: 20px;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .footer-section ul {
-    flex-direction: column;
-  }
 }

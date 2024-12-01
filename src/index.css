@@ -1,0 +1,88 @@
+/* Responsive Design for Mobile (Below 576px) */
+@media screen and (max-width: 576px) {
+  /* Navbar Adjustments */
+  .navbar {
+    flex-direction: column; 
+    height: auto; 
+    padding: 10px;
+    align-items: flex-start; /* Align items to the left */
+  }
+  
+  .navbar nav ul {
+    flex-direction: column; 
+    width: 100%; 
+  }
+  
+  .navbar nav ul li {
+    margin: 10px 0; /* Add spacing between links */
+  }
+
+  /* Banner Section Adjustments */
+  .banner-container {
+    padding: 20px 10px;
+  }
+  
+  .banner-title {
+    font-size: 1.5rem;
+  }
+
+  .banner-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* Search Bar Section Adjustments */
+  .search-bar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .search-input {
+    width: 100%; 
+  }
+
+  .quick-search-section .tags {
+    display: flex;
+    flex-direction: row; /* Make the list horizontal */
+    flex-wrap: wrap; /* Allow wrapping if too many items */
+    justify-content: center; /* Center the items */
+    gap: 5px;
+  }
+@media (max-width: 576px) {
+  .job-slider-container {
+    gap: 0; /* Remove extra spacing between cards */
+    padding: 0; /* Remove padding for better centering */
+  }
+
+  .job-card {
+    flex: 0 0 100%; /* Ensure card takes full width of the viewport */
+    max-width: 100%; /* Prevent overflow */
+    margin: 0; /* Align centrally */
+    height: auto; /* Adjust height to content */
+  }
+
+  /* Additional styling for responsive behavior */
+  .job-slider {
+    width: auto; /* Auto width for job-slider to accommodate one card at a time */
+  }
+}
+
+
+  /* Footer Adjustments */
+  .footer-section ul {
+    display: flex;
+    flex-direction: row; /* Make the list horizontal */
+    flex-wrap: wrap; /* Allow wrapping if too many items */
+    justify-content: center; /* Center the items */
+    gap: 5px; /* Add spacing between items */
+  }
+
+  .footer-disclaimer {
+    font-size: 10px; 
+    text-align: center; /* Center disclaimer text */
+  }
+
+  .footer h2 {
+    font-size: 18px;
+  }
+}
